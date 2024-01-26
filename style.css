@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: antiquewhite;
 }
@@ -13,4 +16,28 @@ input[type="text"]:focus {
 label {
   display: block;
   width: 25%;
+}
+
+#tarolo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.label1,
+.label2,
+.label3 {
+  grid-column: 1;
+}
+.input1,
+.input2,
+.input3,
+#evjarat,
+#evjarat_szam {
+  grid-column: 2;
+}
+h1{
+    text-align: center;
+}
+fieldset{
+    margin: auto;
+    width: 30%;
 }
