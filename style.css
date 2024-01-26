@@ -1,13 +1,16 @@
-body{
-    background-color: antiquewhite
+body {
+  background-color: antiquewhite;
 }
-input{
-    margin: 5px;
+
+input {
+  margin: 5px;
 }
-input[type=text]:focus{
-    background-color: grey;
+
+input[type="text"]:focus {
+  background-color: grey;
 }
-label{
-    display: block;
-    width: 25%;
+
+label {
+  display: block;
+  width: 25%;
 }
