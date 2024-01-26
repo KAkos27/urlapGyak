@@ -34,10 +34,10 @@ label {
 #evjarat_szam {
   grid-column: 2;
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
-fieldset{
-    margin: auto;
-    width: 30%;
+fieldset {
+  margin: auto;
+  width: 30%;
 }

@@ -1,45 +1,36 @@
 <!DOCTYPE html>
 <html lang="hu">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Űrlap</title>
-  </head>
-  <body>
-    <h1>Kocsik</h1>
-    <form action="#" method="get">
-      <fieldset>
-        <legend>Autók adatai</legend>
-        <div id="tarolo">
-          <div id="label1"><label for="k_marka">Kedvenc márka:</label></div>
-          <div id="input1">
-            <input type="text" id="k_marka" name="marka" value="Honda" /><br />
-          </div>
-          <div id="label2"><label for="tipus">Típus:</label></div>
-          <div id="input2">
-            <input type="text" id="tipus" name="tipus" value="Civic" /><br />
-          </div>
-          <div id="label3"><label for="evjarat">Évjárat:</label></div>
-          <input
-            type="range"
-            name="evjarat"
-            min="1804"
-            max="2024"
-            id="evjarat"
-            oninput="this.form.evjarat_szam.value = this.value"
-          />
-          <input
-            id="evjarat_szam"
-            type="number"
-            name="evjarat_szam"
-            min="1804"
-            max="2024"
-            oninput="this.form.evjarat.value = this.value"
-          /><br />
-          <input id="input3" type="submit" value="Küldés" />
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Űrlap</title>
+</head>
+
+<body>
+  <h1>Kocsik</h1>
+  <form action="#" method="get">
+    <fieldset>
+      <legend>Autók adatai</legend>
+      <div id="tarolo">
+        <div id="label1"><label for="k_marka">Kedvenc márka:</label></div>
+        <div id="input1">
+          <input type="text" id="k_marka" name="marka" value="Honda"><br>
         </div>
-      </fieldset>
-    </form>
-  </body>
+        <div id="label2"><label for="tipus">Típus:</label></div>
+        <div id="input2">
+          <input type="text" id="tipus" name="tipus" value="Civic"><br>
+        </div>
+        <div id="label3"><label for="evjarat">Évjárat:</label></div>
+        <input type="range" name="evjarat" min="1804" max="2024" id="evjarat"
+          oninput="this.form.evjarat_szam.value = this.value">
+        <input id="evjarat_szam" type="number" name="evjarat_szam" min="1804" max="2024"
+          oninput="this.form.evjarat.value = this.value"><br>
+        <input id="input3" type="submit" value="Küldés">
+      </div>
+    </fieldset>
+  </form>
+</body>
+
 </html>
